@@ -1,0 +1,23 @@
+::ng-deep .bootstrap3-info{
+	height: 50px !important;
+}
+
+::ng-deep .tag {
+	height: 38px !important;
+}
+
+.bgimage_flatshoes{
+	background:url(/assets/images/flatshoes.jpg) 50% no-repeat !important;
+}
+
+.bgimage_heels{
+	background:url(/assets/images/heels.jpg) 50% no-repeat !important;
+}
+
+.bgimage_redshoes{
+	background:url(/assets/images/redshoes.jpeg) 50% no-repeat !important;
+}
+
+.bgimage_sportshoes{
+	background:url(/assets/images/sportshoes.jpeg) 50% no-repeat !important;
+}

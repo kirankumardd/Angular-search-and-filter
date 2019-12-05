@@ -1,0 +1,13 @@
+{ 
+	"details":
+		{
+			"sandals":{
+				"flatshoes":"flatshoes.jpg", 
+				"heels":"heels.jpg"
+			},
+			"shoes":{
+				"redshoes":"redshoes.jpeg",
+				"sportshoes":"sportshoes.jpeg"
+			}
+		}	
+} 

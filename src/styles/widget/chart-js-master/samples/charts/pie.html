@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+
+<head>
+	<title>Pie Chart</title>
+	<script src="../../dist/Chart.bundle.js"></script>
+	<!--<script src="../utils.js"></script>-->
+</head>
+
+<body>
+	<div id="canvas-holder" style="width:40%">
+		<canvas id="chart_area"></canvas>
+	</div>
+	<script>
+		var randomScalingFactor = function() {
+			return Math.round(Math.random() * 100);
+		};
+		var configPie = {
+			type: 'pie',
+			data: {
+				datasets: [{
+					data: [75, 25],
+					backgroundColor: [						
+						'#FFE385',
+						'#29CC97'
+					],					
+				}],
+				labels: [					
+					'On Demand Instance 03',
+					'Spot Instance 03'
+                    
+				]
+			},
+			options: {
+				responsive: true,
+                 fontColor: "#363840",
+                defaultFontFamily: "'Open Sans', sans-serif",
+                defaultFontSize: '14px'                                              
+			}
+		};
+		window.onload = function() {
+			var ctxPie = document.getElementById('chart_area').getContext('2d');
+			window.myPie = new Chart(ctxPie, configPie);
+		};	
+	</script>
+</body>
+
+</html>

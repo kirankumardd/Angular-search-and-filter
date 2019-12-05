@@ -1,0 +1,50 @@
+/*!
+* metismenu - v2.7.7
+* A jQuery menu plugin
+* https://github.com/onokumus/metismenu#readme
+*
+* Made by Osman Nuri Okumus <onokumus@gmail.com> (https://github.com/onokumus)
+* Under MIT License
+*/.metismenu .arrow{float:right;line-height:1.42857}[dir=rtl] .metismenu .arrow{float:left}.metismenu .glyphicon.arrow:before{content:"\e079"}.metismenu .active>a>.glyphicon.arrow:before{content:"\e114"}.metismenu .fa.arrow:before{content:"\f104"}.metismenu .active>a>.fa.arrow:before{content:"\f107"}.metismenu .ion.arrow:before{content:"\f3d2"}.metismenu .active>a>.ion.arrow:before{content:"\f3d0"}.metismenu .plus-times{float:right}[dir=rtl] .metismenu .plus-times{float:left}.metismenu .fa.plus-times:before{content:"\f067"}.metismenu .active>a>.fa.plus-times{-webkit-transform:rotate(45deg);transform:rotate(45deg)}.metismenu .plus-minus{float:right}[dir=rtl] .metismenu .plus-minus{float:left}.metismenu .fa.plus-minus:before{content:"\f067"}.metismenu .active>a>.fa.plus-minus:before{content:"\f068"}.metismenu .collapse{display:none}.metismenu .collapse.in{display:block}.metismenu .collapsing{height:0;overflow:hidden;position:relative;transition-duration:.35s;transition-property:height,visibility;transition-timing-function:ease}.metismenu .has-arrow{position:relative}.metismenu .has-arrow:after{-webkit-transform:rotate(-45deg) translateY(-50%);-webkit-transform-origin:top;border-color:initial;border-style:solid;border-width:1px 0 0 1px;content:"";height:.5em;position:absolute;right:1em;top:50%;transform:rotate(-45deg) translateY(-50%);transform-origin:top;transition:all .3s ease-out;width:.5em}[dir=rtl] .metismenu .has-arrow:after{-webkit-transform:rotate(135deg) translateY(-50%);left:1em;right:auto;transform:rotate(135deg) translateY(-50%)}.metismenu .active>.has-arrow:after,.metismenu .has-arrow[aria-expanded=true]:after{-webkit-transform:rotate(-135deg) translateY(-50%);transform:rotate(-135deg) translateY(-50%)}[dir=rtl] .metismenu .active>.has-arrow:after,[dir=rtl] .metismenu .has-arrow[aria-expanded=true]:after{-webkit-transform:rotate(225deg) translateY(-50%);transform:rotate(225deg) translateY(-50%)}
+/*# sourceMappingURL=metisMenu.min.css.map */
+
+.sidebar-nav{background:#fffff}
+.sidebar-nav ul{padding:0;margin:0;list-style:none;background:#fffff}
+.sidebar-nav .metismenu{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}
+.sidebar-nav .metismenu>li{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;position:relative}
+.sidebar-nav .metismenu a{position:relative;display:block;padding:4px 16px;color:#adb5bd;outline-width:0;transition:all .3s linear; -webkit-transition:all .3s linear; -moz-transition:all .3s linear;}
+.sidebar-nav .metismenu > li > a{padding: 20px;}
+.sidebar-nav .metismenu > li > a:hover,
+.sidebar-nav .metismenu > li > a:focus,
+.sidebar-nav .metismenu > li > a:active{color:#fff;text-decoration:none;background:#fb9f00}
+.pr-app-menu-icon{-webkit-box-flex:0;-ms-flex:0 0 auto;flex:0 0 auto;width:25px; font-size: 25px; margin-right: 16px; color: #757575; transition: all 0.2s linear 0s; -webkit-transition: all 0.2s linear 0s; -moz-transition: all 0.2s linear 0s;}
+.sidebar-nav .metismenu a:hover .pr-app-menu-icon,
+.sidebar-nav .metismenu a:focus .pr-app-menu-icon,
+.sidebar-nav .metismenu a:active .pr-app-menu-icon{color: #fff;}
+.sidebar-nav .metismenu a span{font-family: 'Poppins', sans-serif;font-style: normal;font-weight: 500;line-height: 28px;font-size: 13px; color: #757575;}
+.metismenu .has-arrow::after {display: none;}
+@media (min-width: 992px) {
+    .sidebar-nav .metismenu li{position:relative;}
+    .sidebar-nav .metismenu>li>a>span{position: absolute;top: 24px;left: 60px;white-space: nowrap;}
+    .sidebar-nav .metismenu>li>a:hover span,
+    .sidebar-nav .metismenu>li>a:active span,
+    .sidebar-nav .metismenu>li>a:focus span{color: #fff;}
+    .sidebar-nav .metismenu>li>ul{position:absolute;left:100%;top:0;min-width:235px;z-index:1001; padding: 8px 0;}
+    .sidebar-nav .metismenu>li>ul>li>a{text-decoration: none;}
+    .sidebar-nav .metismenu>li>ul>li>a>span{color: #444752; transition:all .3s linear; -webkit-transition:all .3s linear; -moz-transition:all .3s linear;}
+    .sidebar-nav .metismenu>li>ul>li>a:hover span,
+    .sidebar-nav .metismenu>li>ul>li>a:active span,
+    .sidebar-nav .metismenu>li>ul>li>a:focus span{ color: #FD594A;}
+    .sidebar-nav .metismenu>li:hover>ul{height:auto!important;}
+    .sidebar-nav .metismenu>li:active>ul,.sidebar-nav .metismenu>li:hover>ul.collapse{display:block;}
+    .sidebar-nav .metismenu>li:hover>a.has-arrow:after{transform:rotate(135deg)}
+}
+.sidebar-nav .metismenu>li>ul{background:#fff;-webkit-box-shadow:0 3px 5px 0 rgba(50,50,50,0.2);-moz-box-shadow:0 3px 5px 0 rgba(50,50,50,0.2);box-shadow:0 3px 5px 0 rgba(50,50,50,0.2); border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px;}
+.sidebar-nav .metismenu>li>ul:after{right:100%;top:50%;border:solid transparent;content:" ";height:0;width:0;position:absolute;pointer-events:none;border-color:rgba(255,255,255,0);border-right-color:#fff;border-width:8px;margin-top:-8px;}
+.sidebar-nav .metismenu > li > ul> li> a{}
+
+
+.menu-active{color:#fff;text-decoration:none;background:#fb9f00}
+.menu-active .pr-app-menu-icon{color: #fff;}
+.metismenu .menu-active span{color: #fff !important;}
+

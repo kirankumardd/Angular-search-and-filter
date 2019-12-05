@@ -1,0 +1,20 @@
+<svg width="151" height="118" viewBox="0 0 151 118" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 0H63.75" transform="translate(7.25 44.75)" stroke="#2C3049" stroke-width="2" stroke-linecap="round"/>
+<path d="M1.25 17.1841C0.450128 15.5865 0 13.7833 0 11.875C0 5.31662 5.31662 0 11.875 0C12.513 0 13.1393 0.0503137 13.75 0.14719" transform="translate(4.75 27.25)" stroke="#2C3049" stroke-width="2" stroke-linecap="round"/>
+<path d="M0.963957 26.875C0.337827 24.9036 0 22.8037 0 20.625C0 9.23413 9.23413 0 20.625 0C30.2704 0 38.3694 6.621 40.625 15.566" transform="translate(18.5 1)" stroke="#2C3049" stroke-width="2" stroke-linecap="round"/>
+<path d="M12.5 27.9761C15.5817 25.0187 17.5 20.8584 17.5 16.25C17.5 7.27537 10.2246 0 1.25 0C0.82941 0 0.412552 0.0159787 0 0.047362" transform="translate(59.75 16)" stroke="#2C3049" stroke-width="2" stroke-linecap="round"/>
+<path d="M1 5C1 2.79086 2.79086 1 5 1H80.1842C82.3934 1 84.1842 2.79086 84.1842 5V26.5H1V5Z" transform="translate(38.3291 46)" fill="#F6DA81" stroke="#2C3049" stroke-width="2"/>
+<rect x="1" y="1" width="101.75" height="29.25" rx="4" transform="translate(28.5 26)" fill="white" stroke="#2C3049" stroke-width="2"/>
+<circle cx="4.375" cy="4.375" r="4.375" transform="translate(114.75 37.25)" fill="#FF902A"/>
+<path d="M1 5C1 2.79086 2.79086 1 5 1H53.75C55.9591 1 57.75 2.79086 57.75 5V10.25H1V5Z" transform="translate(39.75 46)" fill="#FFF3CC" stroke="#2C3049" stroke-width="2"/>
+<rect x="1" y="1" width="101.75" height="29.25" rx="4" transform="translate(28.5 62.25)" fill="white" stroke="#2C3049" stroke-width="2"/>
+<path d="M1 5C1 2.79086 2.79086 1 5 1H53.75C55.9591 1 57.75 2.79086 57.75 5V10.25H1V5Z" transform="translate(39.75 82.25)" fill="#FFF3CC" stroke="#2C3049" stroke-width="2"/>
+<path d="M0 0H25" transform="translate(11 77.25)" stroke="#2A2D43" stroke-width="2" stroke-linecap="round"/>
+<path d="M0 0H3.75" transform="translate(1 77.25)" stroke="#2A2D43" stroke-width="2" stroke-linecap="round"/>
+<path d="M0 0H25" transform="translate(133.5 14.75) scale(-1 1)" stroke="#2A2D43" stroke-width="2" stroke-linecap="round"/>
+<path d="M0 0H3.75" transform="translate(143.5 14.75) scale(-1 1)" stroke="#2A2D43" stroke-width="2" stroke-linecap="round"/>
+<circle cx="21.25" cy="21.25" r="20.25" transform="translate(108.5 74.75)" fill="white" stroke="#2C3049" stroke-width="2"/>
+<circle cx="15" cy="15" r="15" transform="translate(114.75 81)" fill="#F93048"/>
+<path d="M0 23.75L23.75 0" transform="translate(118.5 84.75)" stroke="white" stroke-width="3"/>
+<path d="M0 23.75L23.75 0" transform="translate(142.25 84.75) scale(-1 1)" stroke="white" stroke-width="3"/>
+</svg>

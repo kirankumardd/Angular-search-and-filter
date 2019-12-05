@@ -1,0 +1,1 @@
+$(window).scroll(function(){if($(this).scrollTop()>1){$(".gotop").css({bottom:"25px"})}else{$(".gotop").css({bottom:"-100px"})}});$(".gotop").click(function(){$("html, body").animate({scrollTop:"0px"},800);return false});

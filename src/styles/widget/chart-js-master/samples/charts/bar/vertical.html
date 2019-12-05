@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+
+<head>
+	<title>Bar Chart</title>
+	<script src="../../../dist/Chart.bundle.js"></script>
+	<script src="../../utils.js"></script>
+	<style>
+	canvas {
+		-moz-user-select: none;
+		-webkit-user-select: none;
+		-ms-user-select: none;
+	}
+	</style>
+</head>
+
+<body>
+	<div id="container" style="width: 75%;">
+		<canvas id="service_type_canvas"></canvas>
+	</div>	
+	<script>
+		
+		
+		var barChartData = {
+			labels: ['0', '10', '30', '50', '70', '80'],
+			datasets: [{
+				label: 'On Demand Cost',
+				backgroundColor: '#FFDF74',
+				borderColor: '#FFDF74',
+				borderWidth: 1,
+				 data: [65, 59, 20, 81, 56, 55]
+			}, {
+				label: 'Spot Cost',
+				backgroundColor: '#29CC97',
+				borderColor: '#29CC97',
+				borderWidth: 1,
+				 data: [15, 29, 30, 41, 56, 65]
+			}]
+
+		};
+
+		window.onload = function() {
+			var ctx = document.getElementById('service_type_canvas').getContext('2d');
+			window.myBar = new Chart(ctx, {
+				type: 'bar',
+				data: barChartData,
+				options: {
+					responsive: true,					
+                    scales: {
+                              xAxes: [{
+                              display: false,
+                                      scaleLabel: {
+                                      display: true,
+                                              labelString: 'Timeline',
+                                              fontColor: "#363840",
+                                              defaultFontFamily: "'Open Sans', sans-serif",
+                                              defaultFontSize: '11px'
+                                      }
+                              }],
+                                      yAxes: [{
+                                      display: true,
+                                      color:"#838E9C",
+                                              scaleLabel: {
+                                              display: true,
+                                                      labelString: 'Cost',
+                                                      fontColor: "#363840",
+                                                      defaultFontFamily: "'Open Sans', sans-serif",
+                                                      defaultFontSize: '11px'
+                                              }
+                                      }]
+                              }
+				}
+			});
+
+		};
+	</script>
+</body>
+
+</html>

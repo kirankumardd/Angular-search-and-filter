@@ -1,0 +1,27 @@
+// Icons
+$icon-path: '../assets/images';
+
+.icon-group {
+    .icon {
+        display: inline-block;
+        margin: 0 10px;
+    }
+}
+.icon {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: inherit;
+    margin: 0 20px;
+    vertical-align: middle;
+    cursor: pointer;
+
+    &.fix-all {
+        background-image: url('#{$icon-path}/fix-all.png');
+    }
+    &.ignore-all {
+        background-image: url('#{$icon-path}/ignore-all.png');
+    }
+}
