@@ -1,0 +1,12 @@
+{  
+   "/kafka/*": {  
+      "target": " http://ec2-34-212-169-203.us-west-2.compute.amazonaws.com:8081",  
+      "secure": false,  
+      "logLevel": "debug"  
+   },
+   "/event": {  
+      "target": "http://ingestapi-nlb-349af1242f20e985.elb.us-west-2.amazonaws.com",  
+      "secure": false,  
+      "logLevel": "debug"  
+   }   
+} 
